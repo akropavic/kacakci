@@ -1,0 +1,35 @@
+name: Stream Scraper
+
+on:
+  schedule:
+    - cron: '0 10,20 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Node.js Kur
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Bagımlılıkları Kur
+        run: npm install
+
+      - name: Scripti Calistir
+        run: node stream_finder.js
+
+      - name: JSONu Repoya Kaydet
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add stream_links.json
+          git commit -m "Guncellendi" || echo "Degisiklik yok"
+          git push
+### 5. JSON Linkine Eriş
+Script çalıştıktan sonra `stream_links.json` repoya kaydolur, linki şu olur:
+```
+https://raw.githubusercontent.com/KULLANICIADIN/stream-scraper/main/stream_links.json
