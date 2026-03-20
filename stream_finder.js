@@ -4,6 +4,10 @@ const fs = require('fs');
 const BASE_URL = 'https://taraftar.site';
 const MATCHES = [
     { id: '/matches?id=bein-sports-1',  takim: 'bein1' },
+    { id: '/matches?id=bein-sports-2', takim: 'bein2' },
+    { id: '/matches?id=bein-sports-3',  takim: 'bein3' },
+    { id: '/matches?id=bein-sports-max-1', takim: 'beinmax1' },
+    { id: '/matches?id=bein-sports-max-2', takim: 'beinmax2' },
 ];
 
 fs.writeFileSync('stream_links.json', JSON.stringify({}, null, 2));
