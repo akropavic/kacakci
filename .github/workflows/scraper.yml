@@ -29,7 +29,3 @@ jobs:
           git add stream_links.json
           git commit -m "Guncellendi" || echo "Degisiklik yok"
           git push
-### 5. JSON Linkine Eriş
-Script çalıştıktan sonra `stream_links.json` repoya kaydolur, linki şu olur:
-```
-https://raw.githubusercontent.com/KULLANICIADIN/stream-scraper/main/stream_links.json
