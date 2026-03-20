@@ -14,8 +14,10 @@ fs.writeFileSync('stream_links.json', JSON.stringify({}, null, 2));
 console.log('stream_links.json temizlendi.');
 
 (async () => {
-    const browser = await puppeteer.launch({ headless: false });
-    
+const browser = await puppeteer.launch({ 
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+});
     console.log('Yönlendirme adresi aranıyor...');
     const tempPage = await browser.newPage();
     await tempPage.goto(BASE_URL, { waitUntil: 'networkidle2' });
