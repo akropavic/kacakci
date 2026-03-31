@@ -6,8 +6,22 @@ const MATCHES = [
     { id: '/matches?id=bein-sports-1',  takim: 'bein1' },
     { id: '/matches?id=bein-sports-2', takim: 'bein2' },
     { id: '/matches?id=bein-sports-3',  takim: 'bein3' },
+        { id: '/matches?id=bein-sports-4', takim: 'bein4' },
+    { id: '/matches?id=bein-sports-5',  takim: 'bein5' },
     { id: '/matches?id=bein-sports-max-1', takim: 'beinmax1' },
     { id: '/matches?id=bein-sports-max-2', takim: 'beinmax2' },
+    { id: '/matches?id=tivibu-spor-1', takim: 'tivibu1' },
+    
+        { id: '/matches?id=tivibu-spor-2', takim: 'tivibu2' },
+
+        { id: '/matches?id=tivibu-spor-3', takim: 'tivibu3' },
+
+        { id: '/matches?id=trt-spor', takim: 'trtspor' },
+
+        { id: '/matches?id=s-sport', takim: 'ssport1' },
+            { id: '/matches?id=s-sport-2', takim: 'ssport2' },
+
+
 ];
 
 fs.writeFileSync('stream_links.json', JSON.stringify({}, null, 2));
