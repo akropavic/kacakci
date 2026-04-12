@@ -49,20 +49,18 @@ const browser = await puppeteer.launch({
         await page.setRequestInterception(true);
         results[match.takim] = [];
 
-        page.on('request', request => {
-            const url = request.url();
-            if (url.includes('.m3u8')) {
-                const path = new URL(url).pathname.replace(/^\//, '');
-                if (!results[match.takim].includes(path)) {
-                    console.log(`[${match.takim.toUpperCase()}] BULUNDU:`, path);
-                    results[match.takim].push(path);
-                } else {
-                    console.log(`[${match.takim.toUpperCase()}] TEKRAR - ATLANDI:`, path);
-                }
-            }
-            request.continue();
-        });
-
+page.on('request', request => {
+    const url = request.url();
+    if (url.includes('.m3u8')) {
+        if (!results[match.takim].includes(url)) {
+            console.log(`[${match.takim.toUpperCase()}] BULUNDU:`, url);
+            results[match.takim].push(url);
+        } else {
+            console.log(`[${match.takim.toUpperCase()}] TEKRAR - ATLANDI:`, url);
+        }
+    }
+    request.continue();
+});
         await page.goto(fullUrl);
         await new Promise(r => setTimeout(r, 20000));
         await page.close();
