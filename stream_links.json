@@ -1,41 +1,35 @@
 {
   "bein1": [
-    "https://tv-trt1.medya.trt.com.tr/master_720.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//bein1/tracks-v1a1/mono.m3u8"
   ],
   "bein2": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//bein22424/tracks-v1a1/mono.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//bein2/tracks-v1a1/mono.m3u8"
   ],
   "bein3": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//trtspor/tracks-v1a1/mono.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8"
   ],
   "bein4": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//bein2/tracks-v1a1/mono.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//bein4/tracks-v1a1/mono.m3u8"
   ],
   "bein5": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//bein2/tracks-v1a1/mono.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//bein5/tracks-v1a1/mono.m3u8"
   ],
   "beinmax1": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//trtspor/tracks-v1a1/mono.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//trtspor/tracks-v1a1/mono.m3u8"
   ],
   "beinmax2": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//trtspor/tracks-v1a1/mono.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//trtspor/tracks-v1a1/mono.m3u8"
   ],
-  "tivibu1": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//trtspor/tracks-v1a1/mono.m3u8"
-  ],
-  "tivibu2": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//trtspor/tracks-v1a1/mono.m3u8"
-  ],
-  "tivibu3": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//trtspor/tracks-v1a1/mono.m3u8"
-  ],
+  "tivibu1": [],
+  "tivibu2": [],
+  "tivibu3": [],
   "trtspor": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//trt1/tracks-v1a1/mono.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8"
   ],
   "ssport1": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//s-sportt/tracks-v1a1/mono.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8"
   ],
   "ssport2": [
-    "https://hlshd.korcanturkmen418.workers.dev/https://corestream.corestreamvip.mom//s-sport2/tracks-v1a1/mono.m3u8"
+    "https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//s-sport2/tracks-v1a1/mono.m3u8"
   ]
 }
